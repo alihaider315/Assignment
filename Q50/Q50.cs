@@ -7,7 +7,7 @@ namespace Assignment
         static void Main(string[] args)
     // a;
         {
-            Console.WriteLine("x*2+3*x-4");
+            Console.WriteLine("(x*2+3*x+2)");
         }
 
     // b;

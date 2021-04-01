@@ -6,12 +6,12 @@ namespace Q58
     {
         static void Main(string[] args)
         // a;
-        // {
-        //     int a=2, b=3, c=5;
-        //     Console.WriteLine(++a);
-        //     Console.WriteLine(++b);
-        //     Console.WriteLine(++c);
-        // }
+        {
+            int a=2, b=3, c=5;
+            Console.WriteLine(++a);
+            Console.WriteLine(++b);
+            Console.WriteLine(++c);
+        }
         // VALID
 
         // b;
@@ -84,13 +84,13 @@ namespace Q58
         // INVALID
 
         // i;
-        {
-            int a=2, b=3, c=5;
-            b = a++ + b++;
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.WriteLine(c);
-        }
+        // {
+        //     int a=2, b=3, c=5;
+        //     b = a++ + b++;
+        //     Console.WriteLine(a);
+        //     Console.WriteLine(b);
+        //     Console.WriteLine(c);
+        // }
         // VALID
     }
 }
